@@ -1,0 +1,3 @@
+SELECT        KID AS Children, PRO AS PresentingProblems, MED AS MedicaitonsNote, REQ AS RefRequestedServices, CMI AS CMIHistoryDetails, ALT AS AlertsAllergies, CRI AS CrisisManagementPlan, 
+                         WAR AS EarlyWarningSigns, AGY AS InvolvedAgenciesNote, CON AS ConditionsNote, INV AS InvestigationsNote, PAS, TRI, DET, OUT, CNO, SAV, COM, [FOR] AS ForensicHistory
+FROM            Mig.MIGRN_ALL_VIEW

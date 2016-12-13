@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Dce.Bendigo.Migration">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\sqlexpress:DCELK_MADAN\madan">
+          <Created>2016-12-13T15:37:41.1009545+05:30</Created>
+          <Type>SQL</Type>
+          <Server>(local)\sqlexpress</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="HOLDEN\SQL2014:DCELK_MADAN\madan">
+          <Created>2016-11-24T01:07:28.4988247+05:30</Created>
+          <Type>SQL</Type>
+          <Server>HOLDEN\SQL2014</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="bcp.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\sqlexpress:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>bcp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>count.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Excel2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Excel2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="insert-required.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>insert-required.sql</FullPath>
+        </FileNode>
+        <FileNode Name="isnull.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>isnull.sql</FullPath>
+        </FileNode>
+        <FileNode Name="kid-json.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>kid-json.sql</FullPath>
+        </FileNode>
+        <FileNode Name="linkserver.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>linkserver.sql</FullPath>
+        </FileNode>
+        <FileNode Name="lookup-patient.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>lookup-patient.sql</FullPath>
+        </FileNode>
+        <FileNode Name="migration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>migration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="migration2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>migration2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="read-file-dhs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>read-file-dhs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="read-file-ocome.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>read-file-ocome.sql</FullPath>
+        </FileNode>
+        <FileNode Name="read-file-pat.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>read-file-pat.sql</FullPath>
+        </FileNode>
+        <FileNode Name="read-folder-dox.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>read-folder-dox.sql</FullPath>
+        </FileNode>
+        <FileNode Name="read-folder-risk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>read-folder-risk.sql</FullPath>
+        </FileNode>
+        <FileNode Name="risk-fill-property.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>risk-fill-property.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sampling.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sampling.sql</FullPath>
+        </FileNode>
+        <FileNode Name="save-info.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>save-info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="schema-mig.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>schema-mig.sql</FullPath>
+        </FileNode>
+        <FileNode Name="select-as-mapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>select-as-mapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="select-as-mapping2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>select-as-mapping2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="select-as-mapping-patient.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>select-as-mapping-patient.sql</FullPath>
+        </FileNode>
+        <FileNode Name="select-as-mapping-patient-entities.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>select-as-mapping-patient-entities.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table-schema.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>table-schema.sql</FullPath>
+        </FileNode>
+        <FileNode Name="transform.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>transform.sql</FullPath>
+        </FileNode>
+        <FileNode Name="triagesnew.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>triagesnew.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trim.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOLDEN\SQL2014:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOLDEN\SQL2014</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>trim.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="format.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>format.xml</FullPath>
+        </FileNode>
+        <FileNode Name="format-dhs.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>format-dhs.xml</FullPath>
+        </FileNode>
+        <FileNode Name="format-ocome.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>format-ocome.xml</FullPath>
+        </FileNode>
+        <FileNode Name="format-patient.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>format-patient.xml</FullPath>
+        </FileNode>
+        <FileNode Name="format-risk.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>format-risk.xml</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
